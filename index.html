@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="https://kit.fontawesome.com/b13141fd60.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div class="page">
+    <div class="header">
+        <nav>
+        <img src="logo.png" class="logo" alt="Logo"></img>
+        <ul id="sidemenu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Acheivements">Acheivements</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    </div>
+    <section class="Home" id="Home">
+    <div class="intro">
+        <div class="hidden-pic"><img src="uma.jpeg" class="hidden" alt="Uma"></img></div>
+    <div class="home">
+        <h1>Hi, I'm Nallaganchu Umapavan<br>a <span class="text"></span></h1>
+        <br><br>
+        <p>"A passionate IT student with a strong interest in software development, 
+            <br>eager to apply my skills and drive innovation in the industry with confidence"</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/uma-pavan-69682a233/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.hackerrank.com/profile/umapavan281"><i class="fa-brands fa-hackerrank"></i></a>
+                <a href="https://leetcode.com/u/umapavan/"><i class="fa-solid fa-code"></i></a>
+                <a href="https://leetcode.com/u/umapavan/"><i class="fa-solid fa-laptop-code"></i></a>
+            </div>
+    </div>
+        <img src="uma.jpeg" class="img" alt="Uma"></img>
+    </div>
+    </section>
+    <section class="Experience" id="Experience">
+        <h1>Experience</h1>
+        <div class="exp">
+            <img src="app-development.png" class="img4" alt="App Development"></img>
+            <img src="app-development.png" class="img2" alt="App Development"></img>
+            <div class="exp_info">
+                <h2>Sefe Automation</h2>
+                <ul>
+                    <li><p>Developed a cutting-edge mobile application for smart homes.</p></li>
+                    <li><p>Enabled users to remotely control electronic appliances and monitor real-time energy consumption.</p></li>
+                    <li><p>Prioritized user satisfaction by conducting rigorous user testing and utilizing feedback to drive iterative design improvements.</p></li>
+                    <li><p>Leveraged Flutter for cross-platform development, ensuring consistent performance on both Android and iOS devices.</p></li>
+                    <li><p>Led close coordination with the hardware team to ensure flawless communication between the app and IoT devices.</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="exp">
+            <img src="smartinterview.jpg" class="img4" alt="Smart Interviews"></img>
+            <div class="exp_info">
+                <h2>Smart Interviews</h2>
+                <ul>
+                    <li><p>Mentored junior developers at Smart Interviews (2024 - Present), providing guidance on Data Structures and Algorithms (DSA) concepts. </p></li>
+                    <li><p>Developed engaging learning modules and facilitated interactive sessions to enhance mentee understanding and problem-solving skills.</p></li>
+                    <li><p>Earned a competitive stipend of ₹12,000 per month, reflecting the value and impact of my mentorship.</p></li>
+                </ul>
+            </div>
+            <img src="smartinterview.jpg" class="img2" alt="Smart Interviews"></img>
+        </div>
+    </section>
+    <section class="Skills" id="Skills">
+        <h1>Skills I possess</h1>
+        <div class="ski">
+            <h2>Coding Languages</h2>
+            <h3>_</h3>
+            <div class="skill">
+                <div data-percentage="90%"><img class="img3" src="cpp.jpeg" alt="C/C++"><p>C/C++</p></div>
+                <div data-percentage="85%"><img class="img3" src="java.jpeg" alt="Java"><p>Java</p></div>
+                <div data-percentage="80%"><img class="img3" src="python.jpeg" alt="Python"><p>Python</p></div>
+                <div data-percentage="75%"><img class="img3" src="dart.jpg" alt="Dart Programming"><p>Dart Programming</p></div>
+            </div>
+        </div>
+        <div class="ski">
+            <h2>Web Development</h2>
+            <h3>_</h3>
+            <div class="skill">
+                <div data-percentage="90%"><img class="img3" src="html.jpeg" alt="HTML, CSS & JavaScript"><p>HTML, CSS <br>& JavaScript</p></div>
+                <div data-percentage="85%"><img class="img3" src="react.jpeg" alt="React"><p>React</p></div>
+                <div data-percentage="70%"><img class="img3" src="node.png" alt="Node.js"><p>Node.js</p></div>
+                <div data-percentage="65%"><img class="img3" src="mern.jpeg" alt="MongoDB"><p>MongoDB</p></div>
+            </div>
+        </div>
+        <div class="ski">
+            <h2>App Development</h2>
+            <h3>_</h3>
+            <div class="skill">
+                <div data-percentage="85%"><img class="img3" src="flutter.jpeg" alt="Flutter"><p>Flutter</p></div>
+                <div data-percentage="85%"><img class="img3" src="dart.jpg" alt="Dart"><p>Dart</p></div>
+            </div>
+        </div>
+        <div class="ski">
+            <h2>Others</h2>
+            <h3>_</h3>
+            <div class="skill">
+                <div data-percentage="95%"><img class="img3" src="dsa.jpeg" alt="Data Structures & Algorithms"><p>Data Structures & Algorithms</p></div>
+                <div data-percentage="80%"><img class="img3" src="ui-ux.png" alt="UI/UX Design"><p>UI/UX Design</p></div>
+                <div data-percentage="85%"><img class="img3" src="ml.jpeg" alt="Machine Learning"><p>Machine Learning</p></div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="main.js"></script>
+    <section class="Acheivements" id="Acheivements">
+        <h1>Acheivements</h1>
+        <div class="acheive">
+            <div class="ach">
+                <img src="sih.jpeg" alt="SIH">
+                <div class="layer"><h3>SIH</h3>
+                <p>Finalist in Smart India hackathon, Led a team of 5 engineering graduates</p>
+                <a href="https://www.linkedin.com/posts/uma-pavan-69682a233_sih-teamwork-innovation-activity-7144008987837968384-SXnc?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="ach">
+                <img src="smartinterview.jpg" alt="DSA">
+                <div class="layer"><h3>DSA</h3>
+                <p>Diamond Certified, Smart Coder from Smart Interviews Data Structures and Algorithms course. Ranked
+                    503 globally out of 32,056 participants and 3rd in college. Top performer in the department.
+                    </p>
+                <a href="https://www.linkedin.com/posts/uma-pavan-69682a233_datastructures-algorithms-smartinterviews-activity-7193642939711909888-ydZq?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+            </div>
+            <div class="ach">
+                <img src="coding.jpg" alt="Coding Competitions">
+                <div class="layer"><h3>Coding Competitions</h3>
+                <p>Won First place in several coding competitions</p>
+                <a href="https://www.linkedin.com/posts/uma-pavan-69682a233_codingcompetition-trilangquest-success-activity-7168625429170282496-lwwR?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+            </div>
+        </div>
+        <a class="btn">See more</a>
+    </section>
+    <section class="contact" id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> umapavan2003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8790632123</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/uma-pavan-69682a233/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/mr_ultimate_uma/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.Discordapp.com/users/1090876747181989968"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <a href="umapavan_resume.pdf" download class="btn">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <input type="text" name="Name" id="name" placeholder="Your Name" required/>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required/>
+                    <textarea name="message" rows="6" id="message" placeholder="Your message" required></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script src="smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "umapavan2003@gmail.com",
+                Password: "14116B659C21F159925EBB7B40F97C56EE5B",  // Make sure to replace with your actual SMTP password
+                To: 'umapavan2003@gmail.com',
+                From: "umapavan2003@gmail.com",
+                Subject: "message from portfolio",
+                Body: `Name: ${document.getElementById("name").value} <br> 
+                       Email: ${document.getElementById("email").value} <br> 
+                       Message: ${document.getElementById("message").value}`
+            }).then(
+                message => alert("Mail sent successfully!")
+            ).catch(
+                error => alert("Error: " + error.message)
+            );
+        }
+    </script>
+</div>
+</body>
+</html>
