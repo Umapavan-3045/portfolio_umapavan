@@ -77,37 +77,37 @@
             <h2>Coding Languages</h2>
             <h3>_</h3>
             <div class="skill">
-                <div><img class="img3" src="cpp.jpeg" alt="C/C++"><p>C/C++</p></div>
-                <div><img class="img3" src="java.jpeg" alt="Java"><p>Java</p></div>
-                <div><img class="img3" src="python.jpeg" alt="Python"><p>Python</p></div>
-                <div><img class="img3" src="dart.jpg" alt="Dart Programming"><p>Dart Programming</p></div>
+                <div data-percentage="90%"><img class="img3" src="cpp.jpeg" alt="C/C++"><p>C/C++</p></div>
+                <div data-percentage="85%"><img class="img3" src="java.jpeg" alt="Java"><p>Java</p></div>
+                <div data-percentage="80%"><img class="img3" src="python.jpeg" alt="Python"><p>Python</p></div>
+                <div data-percentage="75%"><img class="img3" src="dart.jpg" alt="Dart Programming"><p>Dart Programming</p></div>
             </div>
         </div>
         <div class="ski">
             <h2>Web Development</h2>
             <h3>_</h3>
             <div class="skill">
-                <div><img class="img3" src="html.jpeg" alt="HTML, CSS & JavaScript"><p>HTML, CSS <br>& JavaScript</p></div>
-                <div><img class="img3" src="react.jpeg" alt="React"><p>React</p></div>
-                <div><img class="img3" src="node.png" alt="Node.js"><p>Node.js</p></div>
-                <div><img class="img3" src="mern.jpeg" alt="MongoDB"><p>MongoDB</p></div>
+                <div data-percentage="90%"><img class="img3" src="html.jpeg" alt="HTML, CSS & JavaScript"><p>HTML, CSS <br>& JavaScript</p></div>
+                <div data-percentage="85%"><img class="img3" src="react.jpeg" alt="React"><p>React</p></div>
+                <div data-percentage="70%"><img class="img3" src="node.png" alt="Node.js"><p>Node.js</p></div>
+                <div data-percentage="65%"><img class="img3" src="mern.jpeg" alt="MongoDB"><p>MongoDB</p></div>
             </div>
         </div>
         <div class="ski">
             <h2>App Development</h2>
             <h3>_</h3>
             <div class="skill">
-                <div><img class="img3" src="flutter.jpeg" alt="Flutter"><p>Flutter</p></div>
-                <div><img class="img3" src="dart.jpg" alt="Dart"><p>Dart</p></div>
+                <div data-percentage="85%"><img class="img3" src="flutter.jpeg" alt="Flutter"><p>Flutter</p></div>
+                <div data-percentage="85%"><img class="img3" src="dart.jpg" alt="Dart"><p>Dart</p></div>
             </div>
         </div>
         <div class="ski">
             <h2>Others</h2>
             <h3>_</h3>
             <div class="skill">
-                <div><img class="img3" src="dsa.jpeg" alt="Data Structures & Algorithms"><p>Data Structures & Algorithms</p></div>
-                <div><img class="img3" src="ui-ux.png" alt="UI/UX Design"><p>UI/UX Design</p></div>
-                <div><img class="img3" src="ml.jpeg" alt="Machine Learning"><p>Machine Learning</p></div>
+                <div data-percentage="95%"><img class="img3" src="dsa.jpeg" alt="Data Structures & Algorithms"><p>Data Structures & Algorithms</p></div>
+                <div data-percentage="80%"><img class="img3" src="ui-ux.png" alt="UI/UX Design"><p>UI/UX Design</p></div>
+                <div data-percentage="85%"><img class="img3" src="ml.jpeg" alt="Machine Learning"><p>Machine Learning</p></div>
             </div>
         </div>
     </section>
@@ -138,6 +138,7 @@
                 <a href="https://www.linkedin.com/posts/uma-pavan-69682a233_codingcompetition-trilangquest-success-activity-7168625429170282496-lwwR?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
             </div>
         </div>
+        <a class="btn">See more</a>
     </section>
     <section class="contact" id="contact">
         <div class="row">
@@ -183,9 +184,9 @@
                 To: 'umapavan2003@gmail.com',
                 From: "umapavan2003@gmail.com",
                 Subject: "message from portfolio",
-                Body: Name: ${document.getElementById("name").value} <br> 
+                Body: `Name: ${document.getElementById("name").value} <br> 
                        Email: ${document.getElementById("email").value} <br> 
-                       Message: ${document.getElementById("message").value}
+                       Message: ${document.getElementById("message").value}`
             }).then(
                 message => alert("Mail sent successfully!")
             ).catch(
