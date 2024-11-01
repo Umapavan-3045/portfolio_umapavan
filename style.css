@@ -262,7 +262,15 @@ nav ul li a:hover::after{
     font-size: 50px;
     margin: 10px 0 30px;
   }
-
+ .projects {
+    margin-top: 180px;
+    text-align: center;
+  }
+  .projects h1{
+    color:#44bff8;
+    font-size: 50px;
+    margin: 10px 0 30px;
+  }
 .acheive {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
@@ -270,6 +278,19 @@ nav ul li a:hover::after{
     margin-top:50px;
     animation: slidetop 1s ease forwards;
     animation-delay: 1s; 
+}
+.project {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top:50px;
+    animation: slidetop 1s ease forwards;
+    animation-delay: 1s; 
+}
+.proj {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 .ach{
     border-radius: 10px;
@@ -407,106 +428,6 @@ form input, form textarea{
   padding:10px;
   border-radius : 0.5em;
  }
-.projects {
-    margin-top: 200px;
-    text-align: center;
-    padding: 50px 0;
-    background-image: url('path/to/your-image.jpg'); /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 1;
-}
-
-.projects::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Dark overlay */
-    z-index: -1;
-}
-
-.projects h1 {
-    color: #ffffff;
-    font-size: 50px;
-    margin: 10px 0 30px;
-    position: relative;
-    display: inline-block;
-}
-
-.projects h1::after {
-    content: '';
-    position: absolute;
-    width: 60%;
-    height: 10px;
-    background: linear-gradient(90deg, #ff5b5b, #ff00ff);
-    border-radius: 5px;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.proj {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 50px;
-    animation: slidetop 1s;
-}
-
-.project {
-    background: #333;
-    color: #fff;
-    border: 2px solid #888;
-    padding: 20px;
-    width: 300px;
-    border-radius: 10px;
-    text-align: left;
-    transition: all 0.3s ease;
-}
-
-.project:hover {
-    border-color: #ff5b5b;
-    transform: scale(1.05);
-}
-
-.project h2 {
-    font-size: 24px;
-    background: linear-gradient(90deg, #ff5b5b, #ff00ff);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.project .number {
-    font-size: 40px;
-    color: #ff5b5b;
-    margin-bottom: 10px;
-}
-
-.project p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #bbb;
-}
-
-.project .read-more {
-    display: inline-block;
-    margin-top: 20px;
-    color: #ff5b5b;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-    transition: color 0.3s ease;
-}
-
-.project .read-more:hover {
-    color: #ff00ff;
-}
  @media only screen and (max-width: 600px) {
     nav .fa-solid {
         display: block;
